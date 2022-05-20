@@ -1,0 +1,58 @@
+<div class="pretitle">{{ section.settings.pretitle }}</div>
+<div class="section-title hide--desktop">{{ section.settings.title }}</div>
+<div class="gradient-section">
+  <div class="section-title hide--mobile">{{ section.settings.title }}</div>
+  <div class="subtitle">{{ section.settings.subtitle }}</div>
+  <div class="content">{{ section.settings.content }}</div>
+</div>
+<div class="link-section">
+  <a href="{{ section.settings.link_url }}">
+    <span>{{ section.settings.link_text }}</span>
+    {% render 'icon-link-arrow' %}
+  </a>
+</div>
+
+
+{% schema %}
+{
+  "name": "First Kind",
+  "class": "first-kind-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "pretitle",
+      "label": "Pretitle"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link Url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "First Kind"
+    }
+  ]
+}
+{% endschema %}

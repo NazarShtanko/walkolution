@@ -1,0 +1,120 @@
+{% assign set = section.settings %}
+<div class="section__container">
+    <div class="text__wrapper">
+        {% if set.subtitle != blank %} <div class="subtitle">{{ set.subtitle }}</div> {% endif %}
+        {% if set.button_text != blank %}
+            <a href="{{ set.button_url }}" >
+                {{ set.button_text }}
+                {% render 'icon-link-arrow' %}
+            </a>
+        {% endif %}
+        {% if section.blocks.size > 0 %}
+            <div class="img__icons">
+            {% assign min_width = true %}
+                {% for block in section.blocks %}
+                    {% if block.settings.img_icon != blank %}
+                        <div class="img__icon">
+                            {% render 'image-element',
+                                image: block.settings.img_icon,
+                                min_width: min_width,
+                                alt: image.alt
+                            %}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+    {% if set.main_img != blank %}
+    <div class="img__wrapper">
+        <div class="main__image">
+            {% render 'image-element',
+            image: set.main_img,
+            alt: image.alt
+        %}
+        </div>
+        <div class="border_image">
+            {% if set.top_image != blank %}
+                <div class="top_img">
+                    {% render 'image-element',
+                    image: set.top_image,
+                    alt: image.alt %}
+                </div>
+            {% endif %}
+            {% if set.bottom_image != blank %}
+                    <div class="bottom_image">
+                        {% render 'image-element',
+                            image: set.bottom_image,
+                            alt: image.alt %}
+                    </div>
+            {% endif %}
+        </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% schema %}
+{
+    "name": "Multi Image Text Icons",
+    "class": "multi-image-icons",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Main Content"
+        },
+        {
+            "type": "richtext",
+            "id": "subtitle",
+            "label": "Subtitle"
+        },
+        {
+            "type": "richtext",
+            "id": "button_text",
+            "label": "Button Text"
+        },
+        {
+            "type": "url",
+            "id": "button_url",
+            "label": "Button Url"
+        },
+        {
+            "type": "paragraph",
+            "content": "Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "main_img",
+            "label": "Main Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "top_image",
+            "label": "Top Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "bottom_image",
+            "label": "Bottom Image"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "Icon",
+            "name": "Image Icon",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "img_icon",
+                    "label": "Image Icon"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "category": "Image With Text",
+            "name": "Image With Text Icon"
+        }
+    ]
+}
+{% endschema %}

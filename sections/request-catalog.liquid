@@ -1,0 +1,53 @@
+<div class="bg-image hide--mobile">
+  {% render 'image-element',
+    image: section.settings.image,
+    alt: image.alt
+  %}
+</div>
+{% assign mobile_image = section.settings.image_mobile | default: section.settings.image %}
+<div class="bg-image hide--desktop">
+  {% render 'image-element',
+    image: mobile_image,
+    alt: image.alt
+  %}
+</div>
+<div class="text-content">
+  <div class="title">{{ section.settings.title }}</div>
+  <div class="subtitle">{{ section.settings.subtitle }}</div>
+  <a href="{{ section.settings.link_url }}" class="arrow-link">
+    {% render 'icon-arrow-down' %}
+  </a>
+</div>
+{% schema %}
+{
+  "name": "Request Catalog",
+  "class": "request-catalog-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Image(mobile)"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link Url"
+    }
+  ]
+}
+{% endschema %}

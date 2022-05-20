@@ -1,0 +1,83 @@
+<div class="pretitle">{{ section.settings.pretitle }}</div>
+<div class="section-title">{{ section.settings.title }}</div>
+<div class="rooms-grid">
+  {% for block in section.blocks %}
+    <a href="{{ block.settings.room_link }}" class="room-item-wrap">
+      <div class="room-item">
+        <div class="room-image">
+          {% render 'image-element',
+            image: block.settings.image,
+            alt: image.alt
+          %}
+        </div>
+        <div class="location-info">
+          {{ block.settings.location_info }}
+
+          <div class="bottom-hr"></div>
+        </div>
+        <div class="datetime-info">
+          <div class="dates">{{ block.settings.weeks }}</div>
+          <div class="time">{{ block.settings.time }}</div>
+        </div>
+      </div>
+    </a>
+  {% endfor %}
+</div>
+{% schema %}
+{
+  "name": "Visit Showrooms",
+  "class": "visit-showrooms-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "pretitle",
+      "label": "Pretitle"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Room",
+      "type": "room",
+      "settings": [
+        {
+          "type": "url",
+          "id": "room_link",
+          "label": "Room Link"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "richtext",
+          "id": "location_info",
+          "label": "Location Info"
+        },
+        {
+          "type": "text",
+          "id": "weeks",
+          "label": "Weeks",
+          "default": "Mon to Sat"
+        },
+        {
+          "type": "text",
+          "id": "time",
+          "label": "Time",
+          "default": "9 am to 18 pm"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Visit Showrooms"
+    }
+  ]
+}
+{% endschema %}

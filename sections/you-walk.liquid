@@ -1,0 +1,98 @@
+<div class="title-wrap">
+  <div class="title-line-1">
+    <span>You walk</span>
+    {% render 'icon-arrow-right' %}
+  </div>
+  <div class="title-line-2">We plant!</div>
+</div>
+<div class="image-and-text-overlay">
+  <div class="text-wrap">
+    <div class="title">{{ section.settings.title }}</div>
+    <div class="subtitle">{{ section.settings.subtitle }}</div>
+  </div>
+  <div class="main-image-wrap hide--mobile">
+    {% render 'image-element',
+      image: section.settings.main_image,
+      alt: image.alt
+    %}
+  </div>
+  {% assign mobile_image = section.settings.main_image_mobile | default: section.settings.main_image %}
+  <div class="main-image-wrap hide--desktop">
+    {% render 'image-element',
+      image: mobile_image,
+      alt: image.alt
+    %}
+  </div>
+  <div class="behind-image-wrap">
+    {% render 'image-element',
+      image: section.settings.behind_image,
+      alt: image.alt
+    %}
+  </div>
+</div>
+<div class="text-content">
+  <div class="content">{{ section.settings.content }}</div> 
+  <a class="btn-link hide--mobile" href="{{ section.settings.link_url }}">
+    <span>{{ section.settings.link_text }}</span>
+    {% render 'icon-link-arrow' %}
+  </a> 
+</div>
+<div class="bottom-link hide--desktop">
+  <a class="btn-link" href="{{ section.settings.link_url }}">
+    <span>{{ section.settings.link_text }}</span>
+    {% render 'icon-link-arrow' %}
+  </a>
+</div>
+{% schema %}
+{
+  "name": "You Walk",
+  "class": "you-walk-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Main Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image_mobile",
+      "label": "Main Image(mobile)"
+    },
+    {
+      "type": "image_picker",
+      "id": "behind_image",
+      "label": "Image Behind"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link Url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "You walk section"
+    }
+  ]
+}
+{% endschema %}

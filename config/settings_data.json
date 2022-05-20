@@ -1,0 +1,1419 @@
+{
+  "current": {
+    "button_primary_border_radius": 35,
+    "button_secondary_bg_color": "#ffffff",
+    "button_secondary_bg_color_transparency": 100,
+    "button_secondary_border_color": "#ffffff",
+    "button_secondary_bg_color--highlight": "#ffffff",
+    "button_secondary_border_color--highlight": "#ffffff",
+    "button_secondary_text_color--highlight": "#000000",
+    "button_secondary_border_radius": 35,
+    "banner_text_size": 18,
+    "banner_text_letter_spacing": 2,
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "icon_label": "",
+          "text": "<p>Satisfaction guarantee with 30 days right of return. <\/p>",
+          "alignment": "center",
+          "size": "regular",
+          "button_label": "",
+          "link": "",
+          "button_style": "button--primary",
+          "background": "#000000",
+          "text_color": "#ffffff",
+          "width": "wide",
+          "homepage_only": false,
+          "enable_sticky": false,
+          "show_close_icon": false,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header__top-bar": {
+        "type": "header__top-bar",
+        "blocks": {
+          "header__top-bar-0": {
+            "type": "text",
+            "settings": {
+              "text": "123 Main Street, Pleasantville USA"
+            }
+          },
+          "header__top-bar-1": {
+            "type": "social_media",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "header__top-bar-0",
+          "header__top-bar-1"
+        ],
+        "settings": {
+          "show_top_bar": false,
+          "font": "open_sans_n4",
+          "font_style": "none",
+          "font_size": 14,
+          "letter_spacing": 0,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "background": "rgba(0,0,0,0)",
+          "link_color": "rgba(0,0,0,0)",
+          "link_hover_color": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "width": "standard",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header-classic": {
+        "type": "header-classic",
+        "settings": {
+          "logo_width": 200,
+          "main_linklist": "main-menu",
+          "menu_alignment": "start",
+          "dropdown_click": false,
+          "display_search": true,
+          "icon_style": "icons",
+          "enable_overlay": false,
+          "show_text_shadow": false,
+          "overlay_link_color": "rgba(0,0,0,0)",
+          "overlay_link_hover_color": "rgba(0,0,0,0)",
+          "overlay_background": "rgba(0,0,0,0)",
+          "overlay_background_opacity": 0,
+          "overlay_logo_width": 80,
+          "enable_sticky": false,
+          "sticky_background_opacity": 50,
+          "scroll_logo_width": 80,
+          "width": "standard",
+          "vertical_alignment": "center",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-1": {
+        "type": "mega-menu-1",
+        "blocks": {
+          "mega-menu-1-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "",
+              "menu_1_link": ""
+            }
+          },
+          "mega-menu-1-1": {
+            "type": "featured_promo",
+            "settings": {
+              "richtext": "<p>Add description and links to your promotion<\/p>",
+              "bgr_color": "#eeeeee",
+              "text_color": "#000000",
+              "promo_link": "",
+              "button_label": "Shop now",
+              "button_style": "button--primary"
+            }
+          },
+          "mega-menu-1-2": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "Your headline",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-1-3": {
+            "type": "empty_column",
+            "settings": {}
+          },
+          "mega-menu-1-4": {
+            "type": "image",
+            "settings": {
+              "image_link": "",
+              "image_caption": "<p>Image caption appears here<\/p>"
+            }
+          },
+          "mega-menu-1-5": {
+            "type": "featured_product",
+            "settings": {
+              "featured_product": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-1-0",
+          "mega-menu-1-1",
+          "mega-menu-1-2",
+          "mega-menu-1-3",
+          "mega-menu-1-4",
+          "mega-menu-1-5"
+        ],
+        "settings": {
+          "parent_link": "catalog",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": true,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "footer__icon-bar": {
+        "type": "footer__icon-bar",
+        "blocks": {
+          "footer__icon-bar-0": {
+            "type": "text",
+            "settings": {
+              "icon": "leaf",
+              "text": "100% Organic",
+              "link": ""
+            }
+          },
+          "footer__icon-bar-1": {
+            "type": "text",
+            "settings": {
+              "icon": "bunny",
+              "text": "Cruelty free",
+              "link": ""
+            }
+          },
+          "footer__icon-bar-2": {
+            "type": "text",
+            "settings": {
+              "icon": "chat",
+              "text": "24\/7 support",
+              "link": ""
+            }
+          },
+          "footer__icon-bar-3": {
+            "type": "text",
+            "settings": {
+              "icon": "truck",
+              "text": "Free shipping",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "footer__icon-bar-0",
+          "footer__icon-bar-1",
+          "footer__icon-bar-2",
+          "footer__icon-bar-3"
+        ],
+        "settings": {
+          "show_icon_bar": true,
+          "alignment": "center",
+          "icon_position": "row",
+          "size": "medium",
+          "background": "#8b8b8b",
+          "link_color": "#ffffff",
+          "link_hover_color": "#000000",
+          "text_color": "#ffffff",
+          "width": "standard",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "footer-classic": {
+        "type": "footer-classic",
+        "blocks": {
+          "footer-classic-0": {
+            "type": "logo",
+            "settings": {
+              "size": "small",
+              "text": "",
+              "social_icons_footer": false
+            }
+          },
+          "footer-classic-1": {
+            "type": "link_list",
+            "settings": {
+              "menu": "main-menu",
+              "social_icons_footer": false
+            }
+          },
+          "footer-classic-2": {
+            "type": "text",
+            "settings": {
+              "title": "Title",
+              "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "social_icons_footer": false
+            }
+          }
+        },
+        "block_order": [
+          "footer-classic-0",
+          "footer-classic-1",
+          "footer-classic-2"
+        ],
+        "settings": {
+          "copyright_text": "",
+          "display_designed_by": true,
+          "display_shopify": true,
+          "display_payment_methods": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "16310289852c971d01": {
+        "type": "index__image-with-text-overlay",
+        "settings": {
+          "link": "",
+          "image": "shopify:\/\/shop_images\/WALKOLUTION_0040_1.png",
+          "mobile_image": "shopify:\/\/shop_images\/WALKOLUTION_0040_1_3.png",
+          "pretext": "<p>THE ELEGANT TREADMILL WITHOUT MOTOR<\/p>",
+          "title": "We build the Movement Revolution.",
+          "subtitle": "",
+          "pretext_color": "#ffffff",
+          "heading_color": "#ffffff",
+          "subheading_color": "#ffffff",
+          "text_alignment": "center",
+          "text_horizontal_position": "center",
+          "text_vertical_position": "middle",
+          "background_color": "#ffffff",
+          "background_opacity": 77,
+          "border_color": "#ffffff",
+          "border_width": 0,
+          "text_width": 90,
+          "button_1": "EXPLORE PRODUCTS",
+          "button_1_link": "",
+          "button_1_style": "button--primary",
+          "button_2": "30 DAYS HOME TRIAL",
+          "button_2_link": "",
+          "button_2_style": "button--secondary",
+          "mobile_image_crop": "none",
+          "mobile_text_below_image": true,
+          "pretext_color_mobile": "rgba(0,0,0,0)",
+          "heading_color_mobile": "rgba(0,0,0,0)",
+          "subheading_color_mobile": "rgba(0,0,0,0)",
+          "width": "wide",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1632908115db7ec134": {
+        "type": "image-text-video",
+        "blocks": {
+          "35bc7b82-90f0-49ec-8329-0fe746293364": {
+            "type": "icon",
+            "settings": {
+              "icon_image": "shopify:\/\/shop_images\/GDA21_HO_SPECIAL_K_RGB_1.png"
+            }
+          },
+          "6e4c4e36-99ee-4307-b386-7e24a23761ec": {
+            "type": "icon",
+            "settings": {
+              "icon_image": "shopify:\/\/shop_images\/IDA_20-Gold_1.png"
+            }
+          },
+          "72c6474d-53f4-45df-89e8-75a99942b738": {
+            "type": "icon",
+            "settings": {
+              "icon_image": "shopify:\/\/shop_images\/IF_award_black-01_1.png"
+            }
+          }
+        },
+        "block_order": [
+          "35bc7b82-90f0-49ec-8329-0fe746293364",
+          "6e4c4e36-99ee-4307-b386-7e24a23761ec",
+          "72c6474d-53f4-45df-89e8-75a99942b738"
+        ],
+        "settings": {
+          "pretitle": "The Walkolution Principle",
+          "title": "Walk. Lean back. Stand. Repeat",
+          "image": "shopify:\/\/shop_images\/WALKOLUTION_0017_1.png",
+          "image_mobile": "shopify:\/\/shop_images\/WALKOLUTION_0017_1_2.png",
+          "subtitle": "Walkolution therefore built the first motorless, silent, and mobile treadmill with an integrated desk which offers an attractive, compact, and healthy alternative for office work.",
+          "video_url": ""
+        }
+      },
+      "16329084594d267cde": {
+        "type": "index__image-with-text-overlay",
+        "settings": {
+          "link": "",
+          "image": "shopify:\/\/shop_images\/Rectangle_4.png",
+          "mobile_image": "shopify:\/\/shop_images\/Rectangle_4_1.png",
+          "pretext": "",
+          "title": "Virtually silence use",
+          "subtitle": "<p>Therefore distraction-free use in quiet work areas possible.<\/p>",
+          "pretext_color": "#000000",
+          "heading_color": "#ffffff",
+          "subheading_color": "#ffffff",
+          "text_alignment": "left",
+          "text_horizontal_position": "left",
+          "text_vertical_position": "middle",
+          "background_color": "#ffffff",
+          "background_opacity": 77,
+          "border_color": "#ffffff",
+          "border_width": 0,
+          "text_width": 40,
+          "button_1": "",
+          "button_1_link": "",
+          "button_1_style": "button--secondary",
+          "button_2": "",
+          "button_2_link": "",
+          "button_2_style": "button--secondary",
+          "mobile_image_crop": "none",
+          "mobile_text_below_image": true,
+          "pretext_color_mobile": "rgba(0,0,0,0)",
+          "heading_color_mobile": "rgba(0,0,0,0)",
+          "subheading_color_mobile": "rgba(0,0,0,0)",
+          "width": "wide",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "16329163496e70b020": {
+        "type": "featured-grid",
+        "blocks": {
+          "41c99f6e-68b6-4627-b759-48dfba967d6c": {
+            "type": "grid_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_Treadmill_Desks0031_6_1_1.png",
+              "title": "MT300 New Work",
+              "subtitle": "Wooden manual treadmill",
+              "price_info": "From  €3.479,00",
+              "btn_text": "Learn More",
+              "btn_url": "#",
+              "link_text": "Compare products",
+              "link_url": "#"
+            }
+          },
+          "148ffc2d-c00f-4e8d-b8b7-79922890775c": {
+            "type": "grid_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_Treadmill_Desks0031_8_1.png",
+              "title": "MT700R Wanderlust",
+              "subtitle": "Wooden manual treadmill with integrated desk.",
+              "price_info": "From  €4599,00",
+              "btn_text": "Learn More",
+              "btn_url": "#",
+              "link_text": "Compare products",
+              "link_url": "#"
+            }
+          },
+          "2802c2ed-f588-4e42-80b0-3b6f97e86d1a": {
+            "type": "grid_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_Treadmill_Desks0031_9_1.png",
+              "title": "MT800R ÄRA",
+              "subtitle": "Wooden manual treadmill with free desk.",
+              "price_info": "From  €4.989,00",
+              "btn_text": "Learn More",
+              "btn_url": "#",
+              "link_text": "Compare products",
+              "link_url": "#"
+            }
+          }
+        },
+        "block_order": [
+          "41c99f6e-68b6-4627-b759-48dfba967d6c",
+          "148ffc2d-c00f-4e8d-b8b7-79922890775c",
+          "2802c2ed-f588-4e42-80b0-3b6f97e86d1a"
+        ],
+        "settings": {
+          "pretitle": "300, 700 and 800 SERIES",
+          "title": "The Firm Surface"
+        }
+      },
+      "16329179805847697a": {
+        "type": "featured-grid",
+        "blocks": {
+          "1a6249fc-2f2d-45e5-a8a2-9b1be575ea26": {
+            "type": "grid_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_Treadmill_Desks0031_6_1_1.png",
+              "title": "MT300 New Work",
+              "subtitle": "Wooden manual treadmill",
+              "price_info": "From  €3.479,00",
+              "btn_text": "Learn more",
+              "btn_url": "#",
+              "link_text": "Compare products",
+              "link_url": "#"
+            }
+          },
+          "2470ff63-c03e-46d0-995e-9790aefc8531": {
+            "type": "grid_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_Treadmill_Desks0031_8_1.png",
+              "title": "MT700R Wanderlust",
+              "subtitle": "Wooden manual treadmill with integrated desk.",
+              "price_info": "From  €4599,00",
+              "btn_text": "Learn more",
+              "btn_url": "#",
+              "link_text": "Compare products",
+              "link_url": "#"
+            }
+          },
+          "87e6a1a0-146d-4afc-a039-37f6f15251a3": {
+            "type": "grid_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_Treadmill_Desks0031_9_1.png",
+              "title": "MT800R ÄRA",
+              "subtitle": "Wooden manual treadmill with free desk.",
+              "price_info": "From  €4.989,00",
+              "btn_text": "Learn more",
+              "btn_url": "#",
+              "link_text": "Compare products",
+              "link_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "1a6249fc-2f2d-45e5-a8a2-9b1be575ea26",
+          "2470ff63-c03e-46d0-995e-9790aefc8531",
+          "87e6a1a0-146d-4afc-a039-37f6f15251a3"
+        ],
+        "settings": {
+          "pretitle": "900 KYBUN® SERIES",
+          "title": "The Soft Surface"
+        }
+      },
+      "16329190717d7bf0f4": {
+        "type": "first-kind",
+        "settings": {
+          "pretitle": "Meet the Kyburn Series",
+          "title": "The first of its kind",
+          "subtitle": "LIKE WALKING ON A SOFT FOREST FLOOR",
+          "content": "<p>The <strong>MTD900 Kybun<\/strong> marks the pinnacle of the treadmill product category and combines the perfected art of Walkolution manufacture with the most innovative materials of the fitness industry.<\/p>",
+          "link_text": "Learn more about the Kybun series",
+          "link_url": "#"
+        }
+      },
+      "16329225384efd1c49": {
+        "type": "feel-supported",
+        "settings": {
+          "pretitle": "A modular design",
+          "title": "Feel supported in any position with adjustable features",
+          "image": "shopify:\/\/shop_images\/iF_Design_Award_1.png",
+          "image_mobile": "shopify:\/\/shop_images\/iF_Design_Award_1_1.png",
+          "subtitle": "4 different adjustable heights in integrated desks"
+        }
+      },
+      "163309096576d6ce53": {
+        "type": "you-walk",
+        "settings": {
+          "main_image": "shopify:\/\/shop_images\/jay-mantri-TFyi0QOx08c-unsplash_2.png",
+          "main_image_mobile": "shopify:\/\/shop_images\/jay-mantri-TFyi0QOx08c-unsplash_2_1.png",
+          "behind_image": "shopify:\/\/shop_images\/jay-mantri-TFyi0QOx08c-unsplash_1.png",
+          "title": "HIGH TECH MANUFACTURING MEETS SUSTAINABILITY",
+          "subtitle": "walkolution forest",
+          "content": "<p>We produce all products in our own high-tech manufacturing facility in Bavaria, Germany and attach greatest importance to sustainable production methods and only use highest-quality raw materials from trusted sources, such as FSC-certified wood from well managed German forestries.<\/p><p><strong>To underline our sustainability efforts, for every product sold, Walkolution plants 10 trees in certified projects around the globe.<\/strong><\/p>",
+          "link_text": "Discover the Walkolution Forest",
+          "link_url": "#"
+        }
+      },
+      "16331245042822e11c": {
+        "type": "index__image-slider-with-text",
+        "blocks": {
+          "0e5dadaf-28c7-4196-be45-f143375c50d2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/jay-mantri-TFyi0QOx08c-unsplash_5.png"
+            }
+          },
+          "9ddbf3da-cdff-41e9-b5cd-cfac30dcc066": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/jay-mantri-TFyi0QOx08c-unsplash_6.png"
+            }
+          },
+          "89ec8824-9009-45cd-96ec-f38a4e1bc7ce": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/iF_Design_Award_1.png"
+            }
+          },
+          "11de4a5e-9a27-4a96-b7ea-aa43ea4d5b29": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/jay-mantri-TFyi0QOx08c-unsplash_5_c58da544-2913-438c-a184-570ff81e08e0.png"
+            }
+          },
+          "a194a2d4-32ae-4ee6-b7d6-4b20ddd3d003": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_6197_1.png"
+            }
+          }
+        },
+        "block_order": [
+          "0e5dadaf-28c7-4196-be45-f143375c50d2",
+          "9ddbf3da-cdff-41e9-b5cd-cfac30dcc066",
+          "89ec8824-9009-45cd-96ec-f38a4e1bc7ce",
+          "11de4a5e-9a27-4a96-b7ea-aa43ea4d5b29",
+          "a194a2d4-32ae-4ee6-b7d6-4b20ddd3d003"
+        ],
+        "settings": {
+          "title": "<p>Award winning <br\/>Design<\/p>",
+          "text": "<p>The design of the products has already been recognized with first prizes in several international design competitions, including the <strong>German Design Award<\/strong>, the <strong>International Design Award<\/strong> and recently the <strong>iF Design Award.<\/strong><\/p>",
+          "slider_text": "Drag",
+          "text_position": 375
+        }
+      },
+      "16331316587c1be25b": {
+        "type": "index__text-icons",
+        "blocks": {
+          "bb608584-327a-418d-90e9-19582fa05118": {
+            "type": "icon",
+            "settings": {
+              "icon_image": "shopify:\/\/shop_images\/GDA21_HO_SPECIAL_K_RGB_1.png"
+            }
+          },
+          "01b75ffa-0ba1-4217-a8a6-c3a0e3f4448e": {
+            "type": "icon",
+            "settings": {
+              "icon_image": "shopify:\/\/shop_images\/IDA_20-Gold_1.png"
+            }
+          },
+          "e4007bcb-c9ce-493d-945f-0dc98d72ba23": {
+            "type": "icon",
+            "settings": {
+              "icon_image": "shopify:\/\/shop_images\/IF_award_black-01_1.png"
+            }
+          }
+        },
+        "block_order": [
+          "bb608584-327a-418d-90e9-19582fa05118",
+          "01b75ffa-0ba1-4217-a8a6-c3a0e3f4448e",
+          "e4007bcb-c9ce-493d-945f-0dc98d72ba23"
+        ],
+        "settings": {
+          "title": "<p>Award winning <br\/>Design<\/p>",
+          "text": "<p>The design of the products has already been recognized with first prizes in several international design competitions, including the <strong>German Design Award<\/strong>, the <strong>International Design Award<\/strong> and recently the <strong>iF Design Award<\/strong>.<\/p>"
+        }
+      },
+      "163320214869ed3cba": {
+        "type": "index__multi-image-text",
+        "blocks": {
+          "996d77e5-95af-467c-9995-bb74f6d55d34": {
+            "type": "Icon",
+            "settings": {
+              "img_icon": "shopify:\/\/shop_images\/ibm-logo-5_1.png"
+            }
+          },
+          "3604ac7a-9d0c-48ee-8f83-fd33f99655cb": {
+            "type": "Icon",
+            "settings": {
+              "img_icon": "shopify:\/\/shop_images\/177-1778508_report-bayer-logo-svg_1.png"
+            }
+          },
+          "01961228-6b25-44d3-93fd-00a6c80c153c": {
+            "type": "Icon",
+            "settings": {
+              "img_icon": "shopify:\/\/shop_images\/descarga_1.png"
+            }
+          },
+          "b7edf02f-967f-49c1-8b4d-7fd0dd40d501": {
+            "type": "Icon",
+            "settings": {
+              "img_icon": "shopify:\/\/shop_images\/descarga_2.png"
+            }
+          },
+          "fc6d32b0-6292-41f3-80d9-8eca2c858136": {
+            "type": "Icon",
+            "settings": {
+              "img_icon": "shopify:\/\/shop_images\/descarga_3.png"
+            }
+          },
+          "90db921e-6f40-418d-864c-ae31ccd54397": {
+            "type": "Icon",
+            "settings": {
+              "img_icon": "shopify:\/\/shop_images\/ibm-logo-5_1.png"
+            }
+          },
+          "9c596fea-65d3-4cfb-8e08-562e94438c8d": {
+            "type": "Icon",
+            "settings": {
+              "img_icon": "shopify:\/\/shop_images\/177-1778508_report-bayer-logo-svg_1.png"
+            }
+          }
+        },
+        "block_order": [
+          "996d77e5-95af-467c-9995-bb74f6d55d34",
+          "3604ac7a-9d0c-48ee-8f83-fd33f99655cb",
+          "01961228-6b25-44d3-93fd-00a6c80c153c",
+          "b7edf02f-967f-49c1-8b4d-7fd0dd40d501",
+          "fc6d32b0-6292-41f3-80d9-8eca2c858136",
+          "90db921e-6f40-418d-864c-ae31ccd54397",
+          "9c596fea-65d3-4cfb-8e08-562e94438c8d"
+        ],
+        "settings": {
+          "subtitle": "<p>More than 100 companies are <br\/>using Walkolution to increase <br\/>team productivity<\/p>",
+          "button_text": "<p>Discover Walkolution for Business<\/p>",
+          "button_url": "#",
+          "main_img": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_3.png",
+          "top_image": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_1.png",
+          "bottom_image": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_4.png"
+        }
+      },
+      "163327385388b6bcf4": {
+        "type": "visit-showrooms",
+        "blocks": {
+          "d516a0a3-5ad8-482a-9d2b-f04d56774d91": {
+            "type": "room",
+            "settings": {
+              "room_link": "#",
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_5.png",
+              "location_info": "<p><strong>Germany<\/strong><br\/>Street name, 123 - Berlin<br\/>+49 322 2185 3977<\/p>",
+              "weeks": "Mon to Sat",
+              "time": "9 am to 18 pm"
+            }
+          },
+          "921a8f7f-d059-44be-a52c-a4d77bbb46a0": {
+            "type": "room",
+            "settings": {
+              "room_link": "#",
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_5.png",
+              "location_info": "<p><strong>AUSTRIA<\/strong><br\/>Street name, 123 - Berlin<br\/>+49 322 2185 3977<\/p>",
+              "weeks": "Mon to Sat",
+              "time": "9 am to 18 pm"
+            }
+          },
+          "b53fd0b6-713f-4138-afc2-68617256d897": {
+            "type": "room",
+            "settings": {
+              "room_link": "#",
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_5.png",
+              "location_info": "<p><strong>SWITZERLAND<\/strong><br\/>Street name, 123 - Berlin<br\/>+49 322 2185 3977<\/p>",
+              "weeks": "Mon to Sat",
+              "time": "9 am to 18 pm"
+            }
+          },
+          "450c9531-f819-4380-bb65-e9c7ab7ad93f": {
+            "type": "room",
+            "settings": {
+              "room_link": "#",
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_5.png",
+              "location_info": "<p><strong>NORWAY<\/strong><br\/>Street name, 123 - Berlin<br\/>+49 322 2185 3977<\/p>",
+              "weeks": "Mon to Sat",
+              "time": "9 am to 18 pm"
+            }
+          },
+          "5909acdf-17c9-43dc-a2b7-4597a563707d": {
+            "type": "room",
+            "settings": {
+              "room_link": "#",
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_5.png",
+              "location_info": "<p><strong>UNITED STATES<br\/><\/strong>Street name, 123 - Berlin<br\/>+49 322 2185 3977<\/p>",
+              "weeks": "Mon to Sat",
+              "time": "9 am to 18 pm"
+            }
+          }
+        },
+        "block_order": [
+          "d516a0a3-5ad8-482a-9d2b-f04d56774d91",
+          "921a8f7f-d059-44be-a52c-a4d77bbb46a0",
+          "b53fd0b6-713f-4138-afc2-68617256d897",
+          "450c9531-f819-4380-bb65-e9c7ab7ad93f",
+          "5909acdf-17c9-43dc-a2b7-4597a563707d"
+        ],
+        "settings": {
+          "pretitle": "Want to try Walkolution?",
+          "title": "Visit our showrooms"
+        }
+      },
+      "1633345752426fefcf": {
+        "type": "compare-products",
+        "blocks": {
+          "d1b63ea8-34ec-494c-9212-0a7f44719c39": {
+            "type": "product",
+            "settings": {
+              "is_wooden": true,
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_Treadmill_Desks0031_6_1_1.png",
+              "title": "MT300 New Work",
+              "subtitle": "Wooden manual treadmill",
+              "price": "€ 3479",
+              "tax_info": "incl. 19 % VAT",
+              "btn_text": "Buy product",
+              "btn_link": "#",
+              "shipping_info": "Delivery within 1–2 weeks"
+            }
+          },
+          "da965439-b741-4d94-aa8c-711930673898": {
+            "type": "product",
+            "settings": {
+              "is_wooden": true,
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_Treadmill_Desks0031_8_1.png",
+              "title": "MT700R Wanderlust",
+              "subtitle": "Wooden manual treadmill with integrated desk.",
+              "price": "€ 4599",
+              "tax_info": "incl. 19 % VAT",
+              "btn_text": "Buy product",
+              "btn_link": "#",
+              "shipping_info": "Delivery within 1–2 weeks"
+            }
+          },
+          "d9dca221-27e3-4f62-9420-10f2a8f007a6": {
+            "type": "product",
+            "settings": {
+              "is_wooden": true,
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_Treadmill_Desks0031_9_1.png",
+              "title": "MT800R ÄRA",
+              "subtitle": "Wooden manual treadmill with free desk.",
+              "price": "€ 4989",
+              "tax_info": "incl. 19 % VAT",
+              "btn_text": "Buy product",
+              "btn_link": "#",
+              "shipping_info": "Delivery within 1–2 weeks"
+            }
+          },
+          "90247786-c5d5-49ca-ae3b-3eac64cc814f": {
+            "type": "feature",
+            "settings": {
+              "title": "Self-propelled treadmill",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "63b4e683-ffb4-4570-8c8d-4663ed20f1b9": {
+            "type": "feature",
+            "settings": {
+              "title": "Whisper quiet operation",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "6fac35ce-cd33-47c7-96aa-4d3a51054ce4": {
+            "type": "feature",
+            "settings": {
+              "title": "Wooden running surface with scratch and dirt",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "0f507b74-5bed-4dfa-ae30-075f3fb92af9": {
+            "type": "feature",
+            "settings": {
+              "title": "Resistant cover",
+              "has_help_icon": true,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "86a15c1b-7f23-4dfd-b21e-e0129dcd8c9e": {
+            "type": "feature",
+            "settings": {
+              "title": "Maintenance free",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "1e5a29ee-d2ea-41c2-a7f2-ec8ed5d507a1": {
+            "type": "feature",
+            "settings": {
+              "title": "Sustainably made in germany",
+              "has_help_icon": true,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "a6abb27c-5433-41c4-815f-54535649765c": {
+            "type": "feature",
+            "settings": {
+              "title": "Washable, disinfectable surfaces",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "7e0d24eb-b44d-453b-ae6d-f1139be2eddf": {
+            "type": "feature",
+            "settings": {
+              "title": "Movability by one person",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "f8784f86-81a7-44ca-b210-c3d13783ec93": {
+            "type": "feature",
+            "settings": {
+              "title": "Fsc-certified massive wood",
+              "has_help_icon": true,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "b182cb76-3824-4800-8606-636f83f5a0ed": {
+            "type": "feature",
+            "settings": {
+              "title": "Lockable wheels",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "e1166e32-360d-41d5-af64-71ccacf42a4e": {
+            "type": "feature",
+            "settings": {
+              "title": "Certified according to din en iso 20957",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "5501b38e-dffd-4d39-9e3b-3e3661b4bf22": {
+            "type": "feature",
+            "settings": {
+              "title": "Maximal user weight 160 kg",
+              "has_help_icon": true,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "e9d7ec80-a958-4b62-979d-3a1e8329beff": {
+            "type": "feature",
+            "settings": {
+              "title": "Optional standing aid",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "c89d66ad-3039-42fa-bc72-b02792b2bce6": {
+            "type": "feature",
+            "settings": {
+              "title": "Standing aid",
+              "has_help_icon": false,
+              "for_item1": false,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "94a15b6b-fafa-4829-9ee4-a599a021164b": {
+            "type": "feature",
+            "settings": {
+              "title": "Front support bar",
+              "has_help_icon": false,
+              "for_item1": false,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "a4325a98-794e-43e7-ab1f-d6ea949b21b3": {
+            "type": "feature",
+            "settings": {
+              "title": "Integrated award winning desk, depth adjustable",
+              "has_help_icon": false,
+              "for_item1": false,
+              "for_item2": true,
+              "for_item3": true
+            }
+          }
+        },
+        "block_order": [
+          "d1b63ea8-34ec-494c-9212-0a7f44719c39",
+          "da965439-b741-4d94-aa8c-711930673898",
+          "d9dca221-27e3-4f62-9420-10f2a8f007a6",
+          "90247786-c5d5-49ca-ae3b-3eac64cc814f",
+          "63b4e683-ffb4-4570-8c8d-4663ed20f1b9",
+          "6fac35ce-cd33-47c7-96aa-4d3a51054ce4",
+          "0f507b74-5bed-4dfa-ae30-075f3fb92af9",
+          "86a15c1b-7f23-4dfd-b21e-e0129dcd8c9e",
+          "1e5a29ee-d2ea-41c2-a7f2-ec8ed5d507a1",
+          "a6abb27c-5433-41c4-815f-54535649765c",
+          "7e0d24eb-b44d-453b-ae6d-f1139be2eddf",
+          "f8784f86-81a7-44ca-b210-c3d13783ec93",
+          "b182cb76-3824-4800-8606-636f83f5a0ed",
+          "e1166e32-360d-41d5-af64-71ccacf42a4e",
+          "5501b38e-dffd-4d39-9e3b-3e3661b4bf22",
+          "e9d7ec80-a958-4b62-979d-3a1e8329beff",
+          "c89d66ad-3039-42fa-bc72-b02792b2bce6",
+          "94a15b6b-fafa-4829-9ee4-a599a021164b",
+          "a4325a98-794e-43e7-ab1f-d6ea949b21b3"
+        ],
+        "settings": {
+          "title": "Which Walkolution is right for you?",
+          "link_text": "Compare all products",
+          "link_url": "#"
+        }
+      },
+      "centered-image": {
+        "type": "centered-image",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Rectangle_97.png",
+          "title1": "Upgrade your home-office with a new category of furniture",
+          "subtitle1": "Use your Walkolution anywhere and not just for work. You don't need electricity and can therefore use it in the garden, on the terrace or on the balcony.",
+          "title2": "A new concept to reinvent your workplace",
+          "subtitle2": "Staying effortlessly in motion throughout the day and thus keeping the body healthy is the key to productivity in our modern working world."
+        }
+      },
+      "index__image-with-text-overlay": {
+        "type": "index__image-with-text-overlay",
+        "settings": {
+          "link": "",
+          "image": "shopify:\/\/shop_images\/iF_Design_Award_2_1.png",
+          "pretext": "",
+          "title": "Modular design to suit any use",
+          "subtitle": "<p>You can easily adapt your Walkolution and upgrade your product with a few simple steps and without tools.<\/p>",
+          "pretext_color": "#000000",
+          "heading_color": "#000000",
+          "subheading_color": "#000000",
+          "text_alignment": "left",
+          "text_horizontal_position": "right",
+          "text_vertical_position": "middle",
+          "background_color": "#ffffff",
+          "background_opacity": 77,
+          "border_color": "#ffffff",
+          "border_width": 0,
+          "text_width": 40,
+          "button_1": "",
+          "button_1_link": "",
+          "button_1_style": "button--secondary",
+          "button_2": "",
+          "button_2_link": "",
+          "button_2_style": "button--secondary",
+          "mobile_image_crop": "none",
+          "mobile_text_below_image": true,
+          "pretext_color_mobile": "rgba(0,0,0,0)",
+          "heading_color_mobile": "rgba(0,0,0,0)",
+          "subheading_color_mobile": "rgba(0,0,0,0)",
+          "width": "wide",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "image-with-text-1": {
+        "type": "image-with-text-1",
+        "blocks": {
+          "24a497ec-6c98-4d5d-861d-c732347407e6": {
+            "type": "icon",
+            "settings": {
+              "icon_svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12.279 1.56188C12.0999 1.48977 11.9001 1.48977 11.721 1.56188L2.769 5.15966L6.375 6.60812L15.606 2.8988L12.279 1.56188ZM17.625 3.71121L8.394 7.42053L12 8.86898L21.231 5.15966L17.625 3.71121ZM22.5 6.27351L12.75 10.1923V22.1327L22.5 18.2139V6.27502V6.27351ZM11.25 22.1342V10.1908L1.5 6.27351V18.2154L11.25 22.1342ZM11.1645 0.161652C11.7008 -0.0538841 12.2992 -0.0538841 12.8355 0.161652L23.529 4.4603C23.668 4.51629 23.7872 4.61283 23.8711 4.73747C23.9551 4.86211 24 5.00916 24 5.15966V18.2154C23.9998 18.5166 23.9098 18.8108 23.7417 19.0601C23.5735 19.3094 23.3348 19.5024 23.0565 19.6141L12.279 23.9459C12.0999 24.018 11.9001 24.018 11.721 23.9459L0.945 19.6141C0.666377 19.5026 0.427414 19.3097 0.258963 19.0604C0.0905126 18.8111 0.000309494 18.5167 0 18.2154L0 5.15966C3.48599e-05 5.00916 0.0449156 4.86211 0.128861 4.73747C0.212805 4.61283 0.331969 4.51629 0.471 4.4603L11.1645 0.161652Z\" fill=\"#999999\"><\/path>\n<\/svg>",
+              "text": "Deliverey included"
+            }
+          },
+          "52aca66f-7b08-488b-8918-58c84a949b72": {
+            "type": "icon",
+            "settings": {
+              "icon_svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<g clip-path=\"url(#clip0)\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.281 10.7194C16.3508 10.789 16.4062 10.8718 16.444 10.9629C16.4818 11.054 16.5013 11.1517 16.5013 11.2504C16.5013 11.349 16.4818 11.4467 16.444 11.5378C16.4062 11.6289 16.3508 11.7117 16.281 11.7814L11.781 16.2814C11.7113 16.3512 11.6285 16.4066 11.5374 16.4444C11.4463 16.4822 11.3486 16.5017 11.25 16.5017C11.1513 16.5017 11.0536 16.4822 10.9625 16.4444C10.8714 16.4066 10.7886 16.3512 10.719 16.2814L8.46897 14.0314C8.39924 13.9616 8.34392 13.8788 8.30619 13.7877C8.26845 13.6966 8.24902 13.599 8.24902 13.5004C8.24902 13.4017 8.26845 13.3041 8.30619 13.213C8.34392 13.1219 8.39924 13.0391 8.46897 12.9694C8.6098 12.8285 8.80081 12.7494 8.99997 12.7494C9.09859 12.7494 9.19624 12.7688 9.28735 12.8066C9.37846 12.8443 9.46124 12.8996 9.53097 12.9694L11.25 14.6899L15.219 10.7194C15.2886 10.6495 15.3714 10.5941 15.4625 10.5563C15.5536 10.5185 15.6513 10.499 15.75 10.499C15.8486 10.499 15.9463 10.5185 16.0374 10.5563C16.1285 10.5941 16.2113 10.6495 16.281 10.7194Z\" fill=\"#999999\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M1.5 6V21C1.5 21.3978 1.65804 21.7794 1.93934 22.0607C2.22064 22.342 2.60218 22.5 3 22.5H21C21.3978 22.5 21.7794 22.342 22.0607 22.0607C22.342 21.7794 22.5 21.3978 22.5 21V6H1.5ZM3 1.5C2.20435 1.5 1.44129 1.81607 0.87868 2.37868C0.316071 2.94129 0 3.70435 0 4.5L0 21C0 21.7956 0.316071 22.5587 0.87868 23.1213C1.44129 23.6839 2.20435 24 3 24H21C21.7956 24 22.5587 23.6839 23.1213 23.1213C23.6839 22.5587 24 21.7956 24 21V4.5C24 3.70435 23.6839 2.94129 23.1213 2.37868C22.5587 1.81607 21.7956 1.5 21 1.5H3Z\" fill=\"#999999\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M5.25 0C5.44891 0 5.63968 0.0790176 5.78033 0.21967C5.92098 0.360322 6 0.551088 6 0.75V1.5C6 1.69891 5.92098 1.88968 5.78033 2.03033C5.63968 2.17098 5.44891 2.25 5.25 2.25C5.05109 2.25 4.86032 2.17098 4.71967 2.03033C4.57902 1.88968 4.5 1.69891 4.5 1.5V0.75C4.5 0.551088 4.57902 0.360322 4.71967 0.21967C4.86032 0.0790176 5.05109 0 5.25 0V0ZM18.75 0C18.9489 0 19.1397 0.0790176 19.2803 0.21967C19.421 0.360322 19.5 0.551088 19.5 0.75V1.5C19.5 1.69891 19.421 1.88968 19.2803 2.03033C19.1397 2.17098 18.9489 2.25 18.75 2.25C18.5511 2.25 18.3603 2.17098 18.2197 2.03033C18.079 1.88968 18 1.69891 18 1.5V0.75C18 0.551088 18.079 0.360322 18.2197 0.21967C18.3603 0.0790176 18.5511 0 18.75 0V0Z\" fill=\"#999999\"><\/path>\n<\/g>\n<defs>\n<clippath id=\"clip0\">\n<rect width=\"24\" height=\"24\" fill=\"white\"><\/rect>\n<\/clippath>\n<\/defs>\n<\/svg>",
+              "text": "30 days to see how it works"
+            }
+          },
+          "93315c98-d309-4c8e-8750-8f9425bcbc64": {
+            "type": "icon",
+            "settings": {
+              "icon_svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<g clip-path=\"url(#clip0)\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M2.88 0.759364C2.99739 0.740242 3.11764 0.749312 3.23083 0.785826C3.34403 0.822339 3.44691 0.88525 3.531 0.969364L4.5 1.93986L5.469 0.969364C5.53867 0.899519 5.62143 0.844105 5.71255 0.806295C5.80367 0.768486 5.90135 0.749023 6 0.749023C6.09865 0.749023 6.19633 0.768486 6.28745 0.806295C6.37857 0.844105 6.46133 0.899519 6.531 0.969364L7.5 1.93986L8.469 0.969364C8.53867 0.899519 8.62143 0.844105 8.71255 0.806295C8.80367 0.768486 8.90135 0.749023 9 0.749023C9.09865 0.749023 9.19633 0.768486 9.28745 0.806295C9.37857 0.844105 9.46133 0.899519 9.531 0.969364L10.5 1.93986L11.469 0.969364C11.5387 0.899519 11.6214 0.844105 11.7125 0.806295C11.8037 0.768486 11.9013 0.749023 12 0.749023C12.0987 0.749023 12.1963 0.768486 12.2874 0.806295C12.3786 0.844105 12.4613 0.899519 12.531 0.969364L13.5 1.93986L14.469 0.969364C14.5387 0.899519 14.6214 0.844105 14.7126 0.806295C14.8037 0.768486 14.9013 0.749023 15 0.749023C15.0987 0.749023 15.1963 0.768486 15.2874 0.806295C15.3786 0.844105 15.4613 0.899519 15.531 0.969364L16.5 1.93986L17.469 0.969364C17.5387 0.899519 17.6214 0.844105 17.7126 0.806295C17.8037 0.768486 17.9013 0.749023 18 0.749023C18.0987 0.749023 18.1963 0.768486 18.2874 0.806295C18.3786 0.844105 18.4613 0.899519 18.531 0.969364L19.5 1.93986L20.469 0.969364C20.553 0.885263 20.6559 0.822345 20.769 0.785799C20.8821 0.749254 21.0023 0.740128 21.1197 0.759174C21.237 0.778221 21.3482 0.824894 21.444 0.895344C21.5397 0.965794 21.6174 1.058 21.6705 1.16436L22.4205 2.66436C22.4728 2.76866 22.5 2.88371 22.5 3.00036V22.5004H21V3.17736L20.7945 2.76636L20.0295 3.53136C19.8889 3.67197 19.6981 3.75095 19.4993 3.75095C19.3004 3.75095 19.1096 3.67197 18.969 3.53136L18 2.56086L17.031 3.53136C16.9613 3.60121 16.8786 3.65662 16.7874 3.69443C16.6963 3.73224 16.5987 3.75171 16.5 3.75171C16.4013 3.75171 16.3037 3.73224 16.2126 3.69443C16.1214 3.65662 16.0387 3.60121 15.969 3.53136L15 2.56086L14.031 3.53136C13.9613 3.60121 13.8786 3.65662 13.7874 3.69443C13.6963 3.73224 13.5987 3.75171 13.5 3.75171C13.4013 3.75171 13.3037 3.73224 13.2126 3.69443C13.1214 3.65662 13.0387 3.60121 12.969 3.53136L12 2.56086L11.031 3.53136C10.9613 3.60121 10.8786 3.65662 10.7875 3.69443C10.6963 3.73224 10.5987 3.75171 10.5 3.75171C10.4013 3.75171 10.3037 3.73224 10.2125 3.69443C10.1214 3.65662 10.0387 3.60121 9.969 3.53136L9 2.56086L8.031 3.53136C7.96133 3.60121 7.87857 3.65662 7.78745 3.69443C7.69633 3.73224 7.59865 3.75171 7.5 3.75171C7.40135 3.75171 7.30367 3.73224 7.21255 3.69443C7.12143 3.65662 7.03867 3.60121 6.969 3.53136L6 2.56086L5.031 3.53136C4.96133 3.60121 4.87857 3.65662 4.78745 3.69443C4.69633 3.73224 4.59865 3.75171 4.5 3.75171C4.40135 3.75171 4.30367 3.73224 4.21255 3.69443C4.12143 3.65662 4.03867 3.60121 3.969 3.53136L3.2055 2.76636L3 3.17736V22.5004H1.5V3.00036C1.50001 2.88371 1.52723 2.76866 1.5795 2.66436L2.3295 1.16436C2.38262 1.05808 2.46023 0.96593 2.55594 0.895516C2.65165 0.825103 2.76272 0.778437 2.88 0.759364ZM0 23.2504C0 23.0515 0.0790176 22.8607 0.21967 22.72C0.360322 22.5794 0.551088 22.5004 0.75 22.5004H23.25C23.4489 22.5004 23.6397 22.5794 23.7803 22.72C23.921 22.8607 24 23.0515 24 23.2504C24 23.4493 23.921 23.64 23.7803 23.7807C23.6397 23.9213 23.4489 24.0004 23.25 24.0004H0.75C0.551088 24.0004 0.360322 23.9213 0.21967 23.7807C0.0790176 23.64 0 23.4493 0 23.2504Z\" fill=\"#999999\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4.5 6.75C4.5 6.55109 4.57902 6.36032 4.71967 6.21967C4.86032 6.07902 5.05109 6 5.25 6H14.25C14.4489 6 14.6397 6.07902 14.7803 6.21967C14.921 6.36032 15 6.55109 15 6.75C15 6.94891 14.921 7.13968 14.7803 7.28033C14.6397 7.42098 14.4489 7.5 14.25 7.5H5.25C5.05109 7.5 4.86032 7.42098 4.71967 7.28033C4.57902 7.13968 4.5 6.94891 4.5 6.75ZM4.5 9.75C4.5 9.55109 4.57902 9.36032 4.71967 9.21967C4.86032 9.07902 5.05109 9 5.25 9H14.25C14.4489 9 14.6397 9.07902 14.7803 9.21967C14.921 9.36032 15 9.55109 15 9.75C15 9.94891 14.921 10.1397 14.7803 10.2803C14.6397 10.421 14.4489 10.5 14.25 10.5H5.25C5.05109 10.5 4.86032 10.421 4.71967 10.2803C4.57902 10.1397 4.5 9.94891 4.5 9.75ZM4.5 12.75C4.5 12.5511 4.57902 12.3603 4.71967 12.2197C4.86032 12.079 5.05109 12 5.25 12H14.25C14.4489 12 14.6397 12.079 14.7803 12.2197C14.921 12.3603 15 12.5511 15 12.75C15 12.9489 14.921 13.1397 14.7803 13.2803C14.6397 13.421 14.4489 13.5 14.25 13.5H5.25C5.05109 13.5 4.86032 13.421 4.71967 13.2803C4.57902 13.1397 4.5 12.9489 4.5 12.75ZM4.5 15.75C4.5 15.5511 4.57902 15.3603 4.71967 15.2197C4.86032 15.079 5.05109 15 5.25 15H14.25C14.4489 15 14.6397 15.079 14.7803 15.2197C14.921 15.3603 15 15.5511 15 15.75C15 15.9489 14.921 16.1397 14.7803 16.2803C14.6397 16.421 14.4489 16.5 14.25 16.5H5.25C5.05109 16.5 4.86032 16.421 4.71967 16.2803C4.57902 16.1397 4.5 15.9489 4.5 15.75ZM4.5 18.75C4.5 18.5511 4.57902 18.3603 4.71967 18.2197C4.86032 18.079 5.05109 18 5.25 18H14.25C14.4489 18 14.6397 18.079 14.7803 18.2197C14.921 18.3603 15 18.5511 15 18.75C15 18.9489 14.921 19.1397 14.7803 19.2803C14.6397 19.421 14.4489 19.5 14.25 19.5H5.25C5.05109 19.5 4.86032 19.421 4.71967 19.2803C4.57902 19.1397 4.5 18.9489 4.5 18.75ZM16.5 6.75C16.5 6.55109 16.579 6.36032 16.7197 6.21967C16.8603 6.07902 17.0511 6 17.25 6H18.75C18.9489 6 19.1397 6.07902 19.2803 6.21967C19.421 6.36032 19.5 6.55109 19.5 6.75C19.5 6.94891 19.421 7.13968 19.2803 7.28033C19.1397 7.42098 18.9489 7.5 18.75 7.5H17.25C17.0511 7.5 16.8603 7.42098 16.7197 7.28033C16.579 7.13968 16.5 6.94891 16.5 6.75ZM16.5 9.75C16.5 9.55109 16.579 9.36032 16.7197 9.21967C16.8603 9.07902 17.0511 9 17.25 9H18.75C18.9489 9 19.1397 9.07902 19.2803 9.21967C19.421 9.36032 19.5 9.55109 19.5 9.75C19.5 9.94891 19.421 10.1397 19.2803 10.2803C19.1397 10.421 18.9489 10.5 18.75 10.5H17.25C17.0511 10.5 16.8603 10.421 16.7197 10.2803C16.579 10.1397 16.5 9.94891 16.5 9.75ZM16.5 12.75C16.5 12.5511 16.579 12.3603 16.7197 12.2197C16.8603 12.079 17.0511 12 17.25 12H18.75C18.9489 12 19.1397 12.079 19.2803 12.2197C19.421 12.3603 19.5 12.5511 19.5 12.75C19.5 12.9489 19.421 13.1397 19.2803 13.2803C19.1397 13.421 18.9489 13.5 18.75 13.5H17.25C17.0511 13.5 16.8603 13.421 16.7197 13.2803C16.579 13.1397 16.5 12.9489 16.5 12.75ZM16.5 15.75C16.5 15.5511 16.579 15.3603 16.7197 15.2197C16.8603 15.079 17.0511 15 17.25 15H18.75C18.9489 15 19.1397 15.079 19.2803 15.2197C19.421 15.3603 19.5 15.5511 19.5 15.75C19.5 15.9489 19.421 16.1397 19.2803 16.2803C19.1397 16.421 18.9489 16.5 18.75 16.5H17.25C17.0511 16.5 16.8603 16.421 16.7197 16.2803C16.579 16.1397 16.5 15.9489 16.5 15.75ZM16.5 18.75C16.5 18.5511 16.579 18.3603 16.7197 18.2197C16.8603 18.079 17.0511 18 17.25 18H18.75C18.9489 18 19.1397 18.079 19.2803 18.2197C19.421 18.3603 19.5 18.5511 19.5 18.75C19.5 18.9489 19.421 19.1397 19.2803 19.2803C19.1397 19.421 18.9489 19.5 18.75 19.5H17.25C17.0511 19.5 16.8603 19.421 16.7197 19.2803C16.579 19.1397 16.5 18.9489 16.5 18.75Z\" fill=\"#999999\"><\/path>\n<\/g>\n<defs>\n<clippath id=\"clip0\">\n<rect width=\"24\" height=\"24\" fill=\"white\"><\/rect>\n<\/clippath>\n<\/defs>\n<\/svg>",
+              "text": "Full refund & free pick-up"
+            }
+          }
+        },
+        "block_order": [
+          "24a497ec-6c98-4d5d-861d-c732347407e6",
+          "52aca66f-7b08-488b-8918-58c84a949b72",
+          "93315c98-d309-4c8e-8750-8f9425bcbc64"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_4_098fe5c8-934b-4ca2-b29f-80b99e37f19b.png",
+          "title": "Try it at home for 30 days worry-free",
+          "btn_text": "Try Walkolution",
+          "btn_link": "#"
+        }
+      },
+      "image-and-text-blocks": {
+        "type": "image-and-text-blocks",
+        "blocks": {
+          "68a7aaa0-87b2-4100-bd86-cacd9b3a0f9d": {
+            "type": "image_and_text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_5_1.png",
+              "image_on_right": true,
+              "pretitle": "Treadmill covering",
+              "title": "High-tech wood or Kybun®-Foam",
+              "subtitle": "The Walkolution treadmill is available in two versions: On the 300, 700 and 800 models, you walk on slightly elastic wooden slats made of break-proof and stable birch wood, which come with a sound-reducing and wipeable protective coating. Ideal when wearing shoes, but equally suitable for walking barefoot."
+            }
+          },
+          "4b3f4ec8-2fe5-4cb3-8036-9382229c9b92": {
+            "type": "image_and_text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_6.png",
+              "image_on_right": false,
+              "pretitle": "UPGRADE YOUR EXPERIENCE",
+              "title": "Desk variants and standing aid",
+              "subtitle": "All versions are available either completely without a desk (e.g. to combine with your own height-adjustable desk), with our excellent and well-proven integrated table (Wanderlust series) or with the innovative freestanding table ( Ära series). All Walkolution products are modular, so you can also modify and retrofit the different versions at a later date."
+            }
+          }
+        },
+        "block_order": [
+          "68a7aaa0-87b2-4100-bd86-cacd9b3a0f9d",
+          "4b3f4ec8-2fe5-4cb3-8036-9382229c9b92"
+        ],
+        "settings": {}
+      },
+      "compare-products": {
+        "type": "compare-products",
+        "blocks": {
+          "2bf092c9-7398-456f-907f-5119412cd8a5": {
+            "type": "product",
+            "settings": {
+              "is_wooden": true,
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_Treadmill_Desks0031_6_1_1.png",
+              "title": "MT300 New Work",
+              "subtitle": "Wooden manual treadmill",
+              "price": "€ 3479",
+              "tax_info": "incl. 19 % VAT",
+              "btn_text": "Buy product",
+              "btn_link": "#",
+              "shipping_info": "Delivery within 1–2 weeks"
+            }
+          },
+          "e4c4ee6e-a495-49b4-9596-1dd05038c30e": {
+            "type": "product",
+            "settings": {
+              "is_wooden": true,
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_Treadmill_Desks0031_8_1.png",
+              "title": "MT700R Wanderlust",
+              "subtitle": "Wooden manual treadmill with integrated desk.",
+              "price": "€ 4599",
+              "tax_info": "incl. 19 % VAT",
+              "btn_text": "Buy product",
+              "btn_link": "#",
+              "shipping_info": "Delivery within 1–2 weeks"
+            }
+          },
+          "4df3e805-7406-4548-83fd-bba6f691295b": {
+            "type": "product",
+            "settings": {
+              "is_wooden": true,
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_Treadmill_Desks0031_9_1.png",
+              "title": "MT800R ÄRA",
+              "subtitle": "Wooden manual treadmill with free desk.",
+              "price": "€ 4989",
+              "tax_info": "incl. 19 % VAT",
+              "btn_text": "Buy product",
+              "btn_link": "#",
+              "shipping_info": "Delivery within 1–2 weeks"
+            }
+          },
+          "239fb47b-15a1-4173-af3c-d1ef52c1bc15": {
+            "type": "feature",
+            "settings": {
+              "title": "Self-propelled treadmill",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "3d7bf066-96cd-48b2-95f2-4e793d7eaf2d": {
+            "type": "feature",
+            "settings": {
+              "title": "Whisper quiet operation",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "17e121d4-2741-4b45-beaf-0128ac4d71f9": {
+            "type": "feature",
+            "settings": {
+              "title": "Wooden running surface with scratch and dirt",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "a484da8a-507c-4e3b-9b0f-9cd4b11844c7": {
+            "type": "feature",
+            "settings": {
+              "title": "Resistant cover",
+              "has_help_icon": true,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "0554c791-ea95-40c3-a5f4-3cb8a033b83e": {
+            "type": "feature",
+            "settings": {
+              "title": "Maintenance free",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "2b39b76b-4494-4e5d-b098-c9130814dcf2": {
+            "type": "feature",
+            "settings": {
+              "title": "Sustainably made in germany",
+              "has_help_icon": true,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "40c1bffd-62ab-49ed-9931-f70f03de7d6e": {
+            "type": "feature",
+            "settings": {
+              "title": "Washable, disinfectable surfaces",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "845db616-cbeb-4fa2-8b13-baf4baf1a5d5": {
+            "type": "feature",
+            "settings": {
+              "title": "Movability by one person",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "aaed5784-f7fc-48d9-a3ea-2c812ff66259": {
+            "type": "feature",
+            "settings": {
+              "title": "Fsc-certified massive wood",
+              "has_help_icon": true,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "21b41bd1-e765-46e4-8062-29ac34113669": {
+            "type": "feature",
+            "settings": {
+              "title": "Lockable wheels",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "478af964-fb65-40f7-8db0-7b21c68993b9": {
+            "type": "feature",
+            "settings": {
+              "title": "Certified according to din en iso 20957",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "36425ee3-ede9-4832-b022-9929553f3ddb": {
+            "type": "feature",
+            "settings": {
+              "title": "Maximal user weight 160 kg",
+              "has_help_icon": true,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "46969f57-cb31-4265-86b7-94f67e41ed9c": {
+            "type": "feature",
+            "settings": {
+              "title": "Optional standing aid",
+              "has_help_icon": false,
+              "for_item1": true,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "e7fc2622-bbf3-4e18-ab39-f07a2eeb0fb7": {
+            "type": "feature",
+            "settings": {
+              "title": "Standing aid",
+              "has_help_icon": false,
+              "for_item1": false,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "874ade38-033f-462c-8865-25046d323312": {
+            "type": "feature",
+            "settings": {
+              "title": "Front support bar",
+              "has_help_icon": false,
+              "for_item1": false,
+              "for_item2": true,
+              "for_item3": true
+            }
+          },
+          "986958de-ee8a-415f-8e99-785db2358cd1": {
+            "type": "feature",
+            "settings": {
+              "title": "Integrated award winning desk, depth adjustable",
+              "has_help_icon": false,
+              "for_item1": false,
+              "for_item2": true,
+              "for_item3": true
+            }
+          }
+        },
+        "block_order": [
+          "2bf092c9-7398-456f-907f-5119412cd8a5",
+          "e4c4ee6e-a495-49b4-9596-1dd05038c30e",
+          "4df3e805-7406-4548-83fd-bba6f691295b",
+          "239fb47b-15a1-4173-af3c-d1ef52c1bc15",
+          "3d7bf066-96cd-48b2-95f2-4e793d7eaf2d",
+          "17e121d4-2741-4b45-beaf-0128ac4d71f9",
+          "a484da8a-507c-4e3b-9b0f-9cd4b11844c7",
+          "0554c791-ea95-40c3-a5f4-3cb8a033b83e",
+          "2b39b76b-4494-4e5d-b098-c9130814dcf2",
+          "40c1bffd-62ab-49ed-9931-f70f03de7d6e",
+          "845db616-cbeb-4fa2-8b13-baf4baf1a5d5",
+          "aaed5784-f7fc-48d9-a3ea-2c812ff66259",
+          "21b41bd1-e765-46e4-8062-29ac34113669",
+          "478af964-fb65-40f7-8db0-7b21c68993b9",
+          "36425ee3-ede9-4832-b022-9929553f3ddb",
+          "46969f57-cb31-4265-86b7-94f67e41ed9c",
+          "e7fc2622-bbf3-4e18-ab39-f07a2eeb0fb7",
+          "874ade38-033f-462c-8865-25046d323312",
+          "986958de-ee8a-415f-8e99-785db2358cd1"
+        ],
+        "settings": {
+          "title": "Compare all Walkolution treadmills",
+          "link_text": "Compare all products",
+          "link_url": "#"
+        }
+      },
+      "visit-showrooms": {
+        "type": "visit-showrooms",
+        "blocks": {
+          "189d9f92-1dc8-488f-8279-8f0b6391e4a3": {
+            "type": "room",
+            "settings": {
+              "room_link": "",
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_5.png",
+              "location_info": "<p><strong>Germany<\/strong><br\/>Street name, 123 - Berlin<br\/>+49 322 2185 3977<\/p>",
+              "weeks": "Mon to Sat",
+              "time": "9 am to 18 pm"
+            }
+          },
+          "b5bb8924-231f-419b-ab4c-f195627090d5": {
+            "type": "room",
+            "settings": {
+              "room_link": "",
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_5.png",
+              "location_info": "<p><strong>AUSTRIA<\/strong><br\/>Street name, 123 - Berlin<br\/>+49 322 2185 3977<\/p>",
+              "weeks": "Mon to Sat",
+              "time": "9 am to 18 pm"
+            }
+          },
+          "f22cf252-c8a1-4568-bf34-8d25afcd1167": {
+            "type": "room",
+            "settings": {
+              "room_link": "",
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_5.png",
+              "location_info": "<p><strong>SWITZERLAND<\/strong><br\/>Street name, 123 - Berlin<br\/>+49 322 2185 3977<\/p>",
+              "weeks": "Mon to Sat",
+              "time": "9 am to 18 pm"
+            }
+          },
+          "2948613d-0aa4-44a9-9205-15b90a0f8444": {
+            "type": "room",
+            "settings": {
+              "room_link": "",
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_5.png",
+              "location_info": "<p><strong>NORWAY<\/strong><br\/>Street name, 123 - Berlin<br\/>+49 322 2185 3977<\/p>",
+              "weeks": "Mon to Sat",
+              "time": "9 am to 18 pm"
+            }
+          },
+          "5feb84dc-6f6d-4faf-bef4-fd73c4081e05": {
+            "type": "room",
+            "settings": {
+              "room_link": "",
+              "image": "shopify:\/\/shop_images\/WALKOLUTION_-_WORK_AND_WALK0028_5.png",
+              "location_info": "<p><strong>UNITED STATES<br\/><\/strong>Street name, 123 - Berlin<br\/>+49 322 2185 3977<\/p>",
+              "weeks": "Mon to Sat",
+              "time": "9 am to 18 pm"
+            }
+          }
+        },
+        "block_order": [
+          "189d9f92-1dc8-488f-8279-8f0b6391e4a3",
+          "b5bb8924-231f-419b-ab4c-f195627090d5",
+          "f22cf252-c8a1-4568-bf34-8d25afcd1167",
+          "2948613d-0aa4-44a9-9205-15b90a0f8444",
+          "5feb84dc-6f6d-4faf-bef4-fd73c4081e05"
+        ],
+        "settings": {
+          "pretitle": "Want to try Walkolution?",
+          "title": "Visit our showrooms"
+        }
+      },
+      "request-catalog": {
+        "type": "request-catalog",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/WALKOLUTION_-_Treadmill_Desks0031_4.png",
+          "image_mobile": "shopify:\/\/shop_images\/WALKOLUTION_-_Treadmill_Desks0031_14.png",
+          "title": "Request your catalog",
+          "subtitle": "Discover more with 2021 catalog",
+          "link_url": "#"
+        }
+      }
+    },
+    "content_for_index": [
+      "16310289852c971d01",
+      "1632908115db7ec134",
+      "16329084594d267cde",
+      "16329163496e70b020",
+      "16329179805847697a",
+      "16329190717d7bf0f4",
+      "16329225384efd1c49",
+      "163309096576d6ce53",
+      "16331245042822e11c",
+      "16331316587c1be25b",
+      "163320214869ed3cba",
+      "1633345752426fefcf",
+      "163327385388b6bcf4"
+    ]
+  }
+}

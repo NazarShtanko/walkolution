@@ -1,0 +1,50 @@
+<div class="section-wrap">
+  <div class="text-content grey">
+    <div class="title">{{ section.settings.title1 }}</div>
+    <div class="subtitle">{{ section.settings.subtitle1 }}</div>
+  </div>
+  <div class="image-wrap">
+    {% render 'image-element',
+      image: section.settings.image,
+      alt: image.alt
+    %}
+  </div>
+  <div class="text-content">
+    <div class="title">{{ section.settings.title2 }}</div>
+    <div class="subtitle">{{ section.settings.subtitle2 }}</div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Centered Image",
+  "class": "centered-image-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title1",
+      "label": "Title1"
+    },
+    {
+      "type": "text",
+      "id": "subtitle1",
+      "label": "Subtitle1"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "Title2"
+    },
+    {
+      "type": "text",
+      "id": "subtitle2",
+      "label": "Subtitle2"
+    }
+  ]
+}
+{% endschema %}

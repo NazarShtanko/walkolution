@@ -1,0 +1,90 @@
+<div class="pretitle">{{ section.settings.pretitle }}</div>
+<div class="section-title">{{ section.settings.title }}</div>
+<div class="image-wrap hide--mobile">
+  {% render 'image-element',
+          image: section.settings.image,
+          alt: image.alt
+  %}
+</div>
+<div class="image-wrap hide--desktop">
+  {% assign mobile_image = section.settings.image_mobile | default: section.settings.image %}
+  {% render 'image-element',
+          image: mobile_image,
+          alt: image.alt
+  %}
+</div>
+<div class="subtitle">{{ section.settings.subtitle }}</div>
+<a href="#" class="video-popup-open">
+  <span>Watch product film</span>
+  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+    <path d="M14.542 12.1109C14.7056 12.0267 14.8892 11.9893 15.0727 12.0027C15.2562 12.0161 15.4324 12.0798 15.582 12.1869L22.582 17.1869C22.7116 17.2795 22.8173 17.4016 22.8902 17.5432C22.9631 17.6847 23.0011 17.8417 23.0011 18.0009C23.0011 18.1602 22.9631 18.3171 22.8902 18.4587C22.8173 18.6003 22.7116 18.7224 22.582 18.8149L15.582 23.8149C15.4325 23.922 15.2563 23.9857 15.0729 23.9991C14.8895 24.0125 14.706 23.9751 14.5425 23.891C14.379 23.8068 14.2418 23.6792 14.1461 23.5222C14.0504 23.3652 13.9999 23.1848 14 23.0009V13.0009C13.9998 12.8171 14.0503 12.6368 14.1459 12.4798C14.2415 12.3228 14.3786 12.1951 14.542 12.1109Z" fill="black"/>
+    <circle cx="18" cy="18" r="17.5" stroke="#E0E0E0"/>
+  </svg>
+</a>
+<div class="icons-wrap">
+  {% for block in section.blocks %}
+    <div class="icon-item">
+      {% render 'image-element',
+          image: block.settings.icon_image,
+          alt: image.alt
+      %}
+    </div>
+  {% endfor %}
+</div>
+{% schema %}
+{
+  "name": "Image, Text and Video",
+  "class": "image-text-video-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "pretitle",
+      "label": "Pretitle"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Image(mobile)"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle"
+    },
+    {
+      "type": "url",
+      "id": "video_url",
+      "label": "Video url"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Icon",
+      "type": "icon",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "Icon Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image, Text and Video"
+    }
+  ]
+}
+{% endschema %}

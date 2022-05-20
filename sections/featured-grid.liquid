@@ -1,0 +1,107 @@
+<div class="pretitle">{{ section.settings.pretitle }}</div>
+<div class="section-title">{{ section.settings.title }}</div>
+<div class="section">
+  <div class="grid-items">
+    {% for block in section.blocks %}
+      <div class="grid-item">        
+        <div class="grid-item-container">
+          <div class="top-content">
+            <div class="item-title">{{ block.settings.title }}</div>
+            <div class="item-subtitle">{{ block.settings.subtitle }}</div>
+            <div class="price-info">{{ block.settings.price_info }}</div>
+            <a href="{{ block.settings.btn_url }}" class="button btn-learn-more">{{ block.settings.btn_text }}</a>
+          </div>
+          <div class="image-wrap">
+            {% render 'image-element',
+              image: block.settings.image,
+              alt: image.alt
+            %}
+          </div>
+          <div class="bottom-content">
+            <a href="{{ block.settings.link_url }}" class="arrow-link">
+              <span>{{ block.settings.link_text }}</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18" fill="none">
+                <path d="M3 9L19 9" stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14 3.75L19.25 9L14 14.25" stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Featured Grid",
+  "class": "featured-grid-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "pretitle",
+      "label": "Pretitle"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Grid Item",
+      "type": "grid_item",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subtitle"
+        },
+        {
+          "type": "text",
+          "id": "price_info",
+          "label": "Price Info"
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label": "Button Url"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link Text"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link url"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Grid"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,58 @@
+<div class="top-content">
+  <div class="pretitle">{{ section.settings.pretitle }}</div>
+  <div class="title">{{ section.settings.title }}</div>
+</div>
+<div class="image-with-text-overlay section">
+  <div class="image-wrap hide--mobile">
+    {% render 'image-element',
+      image: section.settings.image,
+      alt: image.alt
+    %}
+  </div>
+  {% assign mobile_image = section.settings.image_mobile | default: section.settings.image %}
+  <div class="image-wrap hide--desktop">
+    {% render 'image-element',
+      image: mobile_image,
+      alt: image.alt
+    %}
+  </div>
+  <div class="subtitle">{{ section.settings.subtitle }}</div>
+</div>
+{% schema %}
+{
+  "name": "Feel Supported",
+  "class": "feel-supported-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "pretitle",
+      "label": "Pretitle"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Image(mobile)"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Feel Supported"
+    }
+  ]
+}
+{% endschema %}

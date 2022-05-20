@@ -1,0 +1,57 @@
+<div class="section-wrap">
+  {% for block in section.blocks %}
+    <div class="image-and-text-block {% if block.settings.image_on_right == false %}reverse{% endif %}">
+      <div class="text-content">
+        <div class="pretitle">{{ block.settings.pretitle }}</div>
+        <div class="title">{{ block.settings.title }}</div>
+        <div class="subtitle">{{ block.settings.subtitle }}</div>
+      </div>
+      <div class="image-wrap">
+        {% render 'image-element',
+          image: block.settings.image,
+          alt: image.alt
+        %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% schema %}
+{
+  "name": "Image and text blocks",
+  "class": "image-and-text-blocks",
+  "blocks": [
+    {
+      "name": "Image and text",
+      "type": "image_and_text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "checkbox",
+          "id": "image_on_right",
+          "label": "Image on Right?",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "pretitle",
+          "label": "Pretitle"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subtitle"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

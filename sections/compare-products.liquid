@@ -1,0 +1,173 @@
+<div class="section-title">{{ section.settings.title }}</div>
+<div class="tab-header">
+  <div class="tab-header-item active" data-tab-title="wooden">Wooden Surface</div>
+  <div class="tab-header-item" data-tab-title="soft">Soft Surface</div>
+</div>
+<div class="tab-content">
+  <div class="tab-content-item active" data-tab-title="wooden">
+    {% for block in section.blocks %}
+      {% if block.type == 'product'  %}
+        <div class="product-item-wrap">
+          <div class="product-info-item">
+            <div class="image-wrap">
+              {% render 'image-element',
+                image: block.settings.image,
+                alt: image.alt
+              %}
+            </div>
+            <div class="product-info-top">
+              <div class="product-title">{{ block.settings.title }}</div>
+              <div class="product-subtitle">{{ block.settings.subtitle }}</div>
+            </div>
+            <div class="product-features">
+              {% assign index = 'for_item' | append: forloop.index %}
+              {% for block in section.blocks %}
+                {% if block.type == 'feature' and block.settings[index] == true %}
+                  <div class="feature-item">
+                    <span>{{ block.settings.title }}</span>
+                    {% if block.settings.has_help_icon %}
+                      <span class="info">{% render 'icon-info' %}</span>
+                    {% endif %}
+                  </div>              
+                {% endif %}
+              {% endfor %}
+            </div>
+            <div class="product-info-bottom">
+              <div class="price-info">
+                <span>From</span>
+                <span class="price">{{ block.settings.price }}</span>
+              </div>
+              <div class="tax-info">{{ block.settings.tax_info }}</div>
+              <a href="{{ block.settings.btn_link }}" class="btn_buy">{{ block.settings.btn_text }}</a>
+              <div class="shipping-info">{{ block.settings.shipping_info }}</div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+<div class="bottom-link-section">
+  <a class="btn-link" href="{{ section.settings.link_url }}">
+    <span>{{ section.settings.link_text }}</span>
+    {% render 'icon-link-arrow' %}
+  </a>
+</div>
+
+{% schema %}
+{
+  "name": "Compare Products",
+  "class": "compare-products-section tab-container",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link Url"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Product",
+      "type": "product",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "is_wooden",
+          "label": "Wooden Surface?",
+          "info": "Wooden surface or Soft surface",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subtitle"
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "label": "Price"
+        },
+        {
+          "type": "text",
+          "id": "tax_info",
+          "label": "Tax Info",
+          "default": "incl. 19 % VAT"          
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "btn_link",
+          "label": "Button Link"
+        },
+        {
+          "type": "text",
+          "id": "shipping_info",
+          "label": "Shipping Info",
+          "default": "Delivery within 1–2 weeks"
+        }
+      ]
+    },
+    {
+      "name": "feature",
+      "type": "feature",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "checkbox",
+          "id": "has_help_icon",
+          "label": "Has Help Icon?",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "for_item1",
+          "label": "For Item1"
+        },
+        {
+          "type": "checkbox",
+          "id": "for_item2",
+          "label": "For Item2"
+        },
+        {
+          "type": "checkbox",
+          "id": "for_item3",
+          "label": "For Item3"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Compare Products"
+    }
+  ]
+}
+{% endschema %}
